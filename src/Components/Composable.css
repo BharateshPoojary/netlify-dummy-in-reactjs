@@ -1,0 +1,21 @@
+.infocontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18rem;
+}
+.composable {
+  font-size: 52px;
+  font-weight: bolder;
+  color: rgb(24, 26, 28);
+}
+.infocontainer > span {
+  font-weight: 600;
+  color: #757778;
+  font-size: 18px;
+  line-height: 27px;
+}
+.streamline {
+  margin-top: 3rem;
+}

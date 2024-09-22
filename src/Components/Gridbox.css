@@ -17,3 +17,71 @@
   display: flex;
   justify-content: center;
 }
+.frontend {
+  background-color: #defffe;
+  color: #296968;
+  padding: 5px 10px;
+
+  border-radius: 20px;
+  width: fit-content;
+}
+.datalayer {
+  width: fit-content;
+  background-color: #edf4ff;
+  color: #7989ca;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.visualeditor {
+  width: fit-content;
+  background-color: #fdf5d8;
+  color: #603408;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.secondline {
+  font-size: 28px;
+  font-weight: bolder;
+  color: #000000;
+  margin: 0.5vw 0;
+}
+.thirdline {
+  font-weight: lighter;
+}
+.corecontainer {
+  margin-top: 39px;
+}
+.core {
+  cursor: pointer;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+.core:hover {
+  text-decoration-color: #05bdba;
+}
+.connectcontainer {
+  margin-top: 46px;
+}
+.connect {
+  cursor: pointer;
+  margin-top: 24px;
+  text-decoration: underline;
+}
+.connect:hover {
+  text-decoration-color: #05bdba;
+}
+.createcontainer {
+  margin-top: 63px;
+}
+.create {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.create:hover {
+  text-decoration-color: #05bdba;
+}
+.greenarrow {
+  color: #05bdba;
+  font-size: 20px;
+  margin-left: 5px;
+}

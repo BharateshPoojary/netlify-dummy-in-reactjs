@@ -85,3 +85,25 @@
 .platform {
   margin-top: 2rem;
 }
+.container {
+  width: 710px;
+  height: 400px;
+  top: 60vh;
+  border: 1px solid #80abfa;
+  border-radius: 20px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1700px) {
+  .container {
+    top: 90vh;
+  }
+  .maincontainer {
+    height: 117vh;
+  }
+}

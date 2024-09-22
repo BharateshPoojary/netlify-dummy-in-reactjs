@@ -11,7 +11,8 @@
   box-shadow: 0px 0px 10px 2px #d4d4d4;
   display: flex;
   flex-direction: column;
-  padding: 1vw 1vw;
+  padding: 0.7vw 1vw;
+  justify-content: space-evenly;
 }
 .maingridcontainer {
   display: flex;
@@ -21,7 +22,6 @@
   background-color: #defffe;
   color: #296968;
   padding: 5px 10px;
-
   border-radius: 20px;
   width: fit-content;
 }
@@ -43,36 +43,26 @@
   font-size: 28px;
   font-weight: bolder;
   color: #000000;
-  margin: 0.5vw 0;
 }
 .thirdline {
   font-weight: lighter;
 }
-.corecontainer {
-  margin-top: 39px;
-}
 .core {
   cursor: pointer;
-  margin-top: 20px;
   text-decoration: underline;
 }
 .core:hover {
   text-decoration-color: #05bdba;
 }
-.connectcontainer {
-  margin-top: 46px;
-}
+
 .connect {
   cursor: pointer;
-  margin-top: 24px;
   text-decoration: underline;
 }
 .connect:hover {
   text-decoration-color: #05bdba;
 }
-.createcontainer {
-  margin-top: 63px;
-}
+
 .create {
   cursor: pointer;
   text-decoration: underline;
@@ -84,4 +74,5 @@
   color: #05bdba;
   font-size: 20px;
   margin-left: 5px;
+  cursor: pointer;
 }

@@ -4,19 +4,7 @@ import videoimage from '../images/videoimage.png'
 const Mainsection = () => {
     const videocircleref = useRef(null);
     const videocontainerstyle = {
-        width: "710px",
-        height: "400px",
-        top: "60vh",
-        border: "1px solid #80abfa",
-        borderRadius: "20px",
-        cursor: "pointer",
-        backgroundImage: `url(${videoimage})`,
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
-        position: "absolute",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center"
+        backgroundImage: `url(${videoimage})`
 
     }
 
@@ -45,7 +33,7 @@ const Mainsection = () => {
                     <span className='deploybtn'>Deploy to Netlify</span>
                     <span className='requestbtn'>Request demo</span>
                 </div>
-                <div style={videocontainerstyle} onMouseEnter={mouseEntered} onMouseLeave={mouseLeaved}>
+                <div style={videocontainerstyle} className="container" onMouseEnter={mouseEntered} onMouseLeave={mouseLeaved}>
                     <div ref={videocircleref} className='videocircle'> <div className="triangle"></div></div>
                 </div>
             </div>

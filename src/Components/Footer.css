@@ -1,0 +1,37 @@
+.footercontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.explorebtn {
+  color: white;
+  background-color: #2e51ed;
+  padding: 0.5vw 0.5vw;
+  border-radius: 5px;
+  font-size: 20px;
+  width: fit-content;
+  cursor: pointer;
+}
+.explorebtn:hover {
+  background-color: #2036a1;
+}
+.enterprise {
+  font-size: 44px;
+  color: black;
+  font-weight: bolder;
+  margin-top: 5rem;
+}
+.imgcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.imgcontainer > img {
+  height: 5vw;
+  width: 7vw;
+  margin: 0 1vw;
+}

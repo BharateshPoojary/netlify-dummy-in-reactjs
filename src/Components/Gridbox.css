@@ -1,0 +1,19 @@
+.gridcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  margin-top: 4rem;
+}
+.griditem {
+  height: 330px;
+  width: 380px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px #d4d4d4;
+  display: flex;
+  flex-direction: column;
+  padding: 1vw 1vw;
+}
+.maingridcontainer {
+  display: flex;
+  justify-content: center;
+}

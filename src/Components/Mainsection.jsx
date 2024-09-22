@@ -39,7 +39,7 @@ const Mainsection = () => {
                         <span>Build anything</span> <div className="circle"></div>
                     </div>
                 </div>
-                <span>Netlify is the essential platform for the delivery of exceptional and</span>
+                <span className='platform'>Netlify is the essential platform for the delivery of exceptional and</span>
                 <span>dynamic web experiences, without limitations.</span>
                 <div className="btncontainer">
                     <span className='deploybtn'>Deploy to Netlify</span>
